@@ -34,7 +34,7 @@ namespace aspnet
                 endpoints.MapGet("/", async context =>
                 {
                     var dotNetVersion = GetDotNetVersion();
-                    await context.Response.WriteAsync($"Hello world!\n.NET Version: {dotNetVersion}\n");
+                    await context.Response.WriteAsync($"Hello, World!\n.NET Version: {dotNetVersion}\n");
                 });
             });
         }

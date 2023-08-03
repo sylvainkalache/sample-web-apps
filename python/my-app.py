@@ -7,4 +7,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello world!\n" + "Python version: " + platform.python_version() + "\n"
+    return "Hello, World!\n" + "Python version: " + platform.python_version() + "\n"

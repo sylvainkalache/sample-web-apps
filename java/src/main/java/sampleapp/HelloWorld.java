@@ -40,7 +40,7 @@ public final class HelloWorld {
     static class MyHandler implements HttpHandler {
         @Override
         public void handle(final HttpExchange t) throws IOException {
-	    String response = "Hello world!\n";
+	    String response = "Hello, World!\n";
 	    String javaVersion = System.getProperty("java.version");
             response += "Java Version: " + javaVersion + "\n";
 

@@ -1,5 +1,5 @@
 # sample-web-apps
-A collection of sample web apps that returns "Hello world!".
+A collection of sample web apps that returns "Hello, World!".
 
 List of languages:
 * ASP.NET
