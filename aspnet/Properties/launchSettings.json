@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "aspnet": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:8080",
+    }
+  }
+}
